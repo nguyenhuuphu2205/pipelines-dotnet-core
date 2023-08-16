@@ -12,5 +12,6 @@ variables:
   buildConfiguration: 'Release'
 
 steps:
-- script: 'uname -a'
+- script: 'dotnet build $(buildConfiguration)'
   displayName: 'dotnet build $(buildConfiguration)'
+
