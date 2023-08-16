@@ -6,7 +6,6 @@
 trigger:
 - master
 
-pool: 'myagent'
 
 variables:
   buildConfiguration: 'Release'
